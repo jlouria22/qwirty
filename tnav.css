@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+tnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  background-color: rgb(34, 79, 202);
+  padding: 10px 13px;
+  font-size: 14pt;
+}
+
+tnav .L {
+  display: flex;
+}
+
+tnav .R {
+  display: flex;
+}
+
+tnav a {
+  color: white;
+  padding: 5px;
+  border-right: 1px solid;
+}
+
+tnav a:last-child {
+  border-right: none;
+}

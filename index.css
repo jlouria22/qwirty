@@ -1,0 +1,22 @@
+snav ul {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  list-style: none;
+  font-weight: bold;
+  width: 250px;
+  gap: 5px;
+  margin: 0px;
+  padding: 25px;
+}
+
+snav li {
+  background-color: rgb(34, 79, 202);
+  padding: 7px;
+  border-radius: 4px;
+}
+
+snav a {
+  color: white;
+  text-decoration: none;
+}
